@@ -1,9 +1,8 @@
-function greeting(your_name) {
-    console.log("Приветствую, " + your_name + "!");
-    return your_name
+function greeting(yourName) {
+    console.log(`Приветствую, ${yourName}!`);
 }
 
-let your_name = prompt("Введите ваше имя:");
-greeting(your_name);
+let yourName = prompt("Введите ваше имя:");
+greeting(yourName);
 
-// alert("Приветствую, " + your_name + "!");
+// alert(`Приветствую, ${yourName}!`);
